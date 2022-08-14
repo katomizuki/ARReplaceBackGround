@@ -10,6 +10,25 @@
 
 #include <simd/simd.h>
 
+typedef enum BufferIndices {
+    kBufferIndexMeshPositions    = 0,
+    kBufferIndexMeshGenerics     = 1,
+    kBufferIndexInstanceUniforms = 2,
+    kBufferIndexSharedUniforms   = 3
+} BufferIndices;
+
+typedef enum VertexAttributes {
+    kVertexAttributePosition  = 0,
+    kVertexAttributeTexcoord  = 1,
+    kVertexAttributeNormal    = 2
+} VertexAttributes;
+
+typedef enum TextureIndices {
+    kTextureIndexColor    = 0,
+    kTextureIndexY        = 1,
+    kTextureIndexCbCr     = 2,
+} TextureIndices;
+
 typedef struct {
     // カメラユニフォーム
     matrix_float4x4 projectionMatrix;

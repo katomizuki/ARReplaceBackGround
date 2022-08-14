@@ -17,6 +17,7 @@
 		D3D2E78D28A72283006D6A1C /* ARReplaceBackGroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D2E78C28A72283006D6A1C /* ARReplaceBackGroundUITests.swift */; };
 		D3D2E78F28A72283006D6A1C /* ARReplaceBackGroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D2E78E28A72283006D6A1C /* ARReplaceBackGroundUITestsLaunchTests.swift */; };
 		D3D2E79C28A722C9006D6A1C /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D2E79B28A722C9006D6A1C /* Renderer.swift */; };
+		D3D2E7A228A8A0A2006D6A1C /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = D3D2E7A128A8A0A2006D6A1C /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D3D2E79B28A722C9006D6A1C /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		D3D2E79D28A72437006D6A1C /* ShaderType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderType.h; sourceTree = "<group>"; };
 		D3D2E79E28A7259C006D6A1C /* ARReplaceBackGround-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARReplaceBackGround-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3D2E7A128A8A0A2006D6A1C /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D3D2E76B28A72280006D6A1C /* AppDelegate.swift */,
+				D3D2E7A128A8A0A2006D6A1C /* Shader.metal */,
 				D3D2E79D28A72437006D6A1C /* ShaderType.h */,
 				D3D2E79E28A7259C006D6A1C /* ARReplaceBackGround-Bridging-Header.h */,
 				D3D2E76D28A72280006D6A1C /* SceneDelegate.swift */,
@@ -269,6 +272,7 @@
 				D3D2E79C28A722C9006D6A1C /* Renderer.swift in Sources */,
 				D3D2E77028A72280006D6A1C /* ViewController.swift in Sources */,
 				D3D2E76C28A72280006D6A1C /* AppDelegate.swift in Sources */,
+				D3D2E7A228A8A0A2006D6A1C /* Shader.metal in Sources */,
 				D3D2E76E28A72280006D6A1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
